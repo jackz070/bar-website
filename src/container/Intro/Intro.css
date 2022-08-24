@@ -1,0 +1,29 @@
+.app__video {
+  width: 100vw;
+  position: relative;
+}
+
+.app__video video {
+  width: 100vw;
+  height: 100%;
+  object-fit: cover;
+}
+
+.app__video-overlay {
+  position: absolute;
+  opacity: 100;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65);
+}
+
+.app__video-overlay_circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.hidden {
+  opacity: 0 !important;
+}
